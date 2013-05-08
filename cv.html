@@ -1,0 +1,188 @@
+<html>
+<head>
+<title>Hi, I'm Ian</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<style>
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif);
+#wrapper {width: 700px; margin: 0 auto;}
+ul, li {list-style: none; display: inline;}
+h1 {text-align: center; font-size:5em; margin-bottom:10px;}
+h2 {font-family: 'Noto Serif', serif; margin:30px 0px 20px 30px;color:#454545;}
+h3 {margin:30px 0px 10px 30px;color:#454545;}
+p {font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", AppleGothic, Dotum, Lucida Grande, Verdana Sans-serif; }
+li:hover, li:active{
+	color:#cecece;
+	cursor:pointer;
+    border-bottom: 1px solid #c9c9c9;
+}
+li {margin-right:33px;}
+.nav {
+    font-family: 'Noto Sans', sans-serif; 
+    margin: 0 auto;
+    width: 470px;
+}
+.content{width:700px;margin-top:25px;}
+
+	.Pcon section{width:650px;margin:0 auto; }
+	.Pcon img {width:150px; float:left; margin:0px 20px 40px 0px;clear:both;}
+	.Pcon p{margin-left:25px;}
+
+	.Econ img {width:332px;}
+	.Econ .container {
+   		-moz-column-count: 2;
+    	-webkit-column-count: 2;
+    	column-count: 2;
+    	width: 680px;
+		margin-left: 10px;} 
+    .container div {
+        display: inline-block; 
+		margin-bottom:20px}
+	.container div:hover{border: 2px solid #cecece;}
+
+	.Scon #S p {margin:5px 0px 20px 30px}
+
+.Pcon, .Econ, .Scon, .Ccon, .Wcon{
+	display:none;
+	background-color:#f6f6f6;
+	-webkit-box-shadow: 1px 1px 3px rgba(50, 50, 50, 0.3);
+	-moz-box-shadow:    1px 1px 3px rgba(50, 50, 50, 0.3);
+	box-shadow:         1px 1px 3px rgba(50, 50, 50, 0.3);	
+}
+</style>
+<head>
+<body>
+<div id="wrapper">
+<h1>HERE IS</h1>
+<div class="nav">
+    <ul>
+    <li id="Profile">Profile</li>
+    <li id="Exp">Experience</li>
+    <li id="Skill">Skill</li>
+    <li id="Contact">Contact</li>
+    <li id="Why">Why?</li>
+    </ul>
+</div>
+<div class="content">
+    <article class="Pcon">
+		<div id="p">
+		<h2>Personal Summary</h2>
+		<div>
+		<p>
+		<img src="./pic/hi.png" style="opacity:0.95">
+		A competent and committed Web Design and Development graduate looking for a rewarding career in the Information Technology sector. Highly focused with a comprehensive knowledge of designing and developing the layout, visual appearance and usability of a website. Possessing a proven track record of successfully completing projects from the concept through to design, testing and handover.		
+		</p>
+		</div>
+	</article>
+
+    <article class="Econ">
+		<div id="E">
+		<h2>Works & Activities</h2>
+			<div class="container">
+				<div>
+					<img src="http://news.eztable.com/wp-content/uploads/sites/2/2011/02/EZTABLE-FB-logo.gif">
+					<p>describe here for more infomation you can <a href="http://www.youtube.com/user/EZTABLEtw/videos?view=0&flow=grid"  target="_blank">check out here</a></p>
+				</div>
+				<div>
+					<img src="./pic/boss.jpg">
+					<p>	A competent and committed Web Design and Development graduate looking for a rewarding career in the Information Technology sector. Highly focused with</p>
+				</div>
+				<div>
+					<img src="./pic/bacamp.jpg">
+					<p>	A competent and committed Web Design and Development graduate looking for a rewarding career in the Information Technology sector. Highly focused with</p>
+				</div>
+				<div>
+					<img src="./pic/ATCC.jpg">
+					<p>	A competent and committed Web Design and Development graduate looking for a rewarding career in the Information Technology sector. Highly focused with</p>
+				</div>
+				<div>
+					<iframe width="332" height="187" src="http://www.youtube.com/embed/WA6qG_2AzN4" frameborder="0" allowfullscreen></iframe>
+					<p>	A competent and committed Web Design and Development graduate looking for a rewarding career in the Information Technology sector. Highly focused with</p>
+				</div>				
+			</div>
+		</div>
+	</article>
+
+    <article class="Scon">
+		<div id="S">
+			<h2>Key Skill</h2>
+				<h3><i>Front-End Programer</i></h3>
+				<p>hi</p>
+				<h3><i>Quick Learner</i></h3>
+				<p></p>
+
+				<h3><i>Film Producer</i></h3>
+
+				<h3><i>Teamworker & Leader</i></h3>
+		</div>
+	</article>
+
+    <article class="Ccon">
+		<div id="C">
+			
+		</div>
+	</article>
+
+    <article class="Wcon">W</article> 
+</div>
+</div>
+<script>
+/*$('li').each(function(){
+	$(this).click(function(){
+	var $div = $('.content div');
+	$div.hide("fast");
+    $(this).slideToggle();
+  });
+}) */
+
+$("#Profile").click(function(){
+	var $div = $('.content article');
+	$div.hide("fast");
+    $(".Pcon").slideToggle();
+	if ($(".Pcon").css("display")==="block"){
+		$('#p').css("display","inline-block");
+	};
+  });
+
+$("#Exp").click(function(){
+	var $div = $('.content article');
+	$div.hide("fast");
+    $(".Econ").slideToggle();
+	if ($(".Econ").css("display")==="block"){
+		$('#E').css("display","inline-block");
+	};
+  });
+
+$("#Skill").click(function(){
+	var $div = $('.content article');
+	$div.hide("fast");
+    $(".Scon").slideToggle();
+	if ($(".Scon").css("display")==="block"){
+		$('#S').css("display","inline-block");
+	};
+  });
+
+$("#Contact").click(function(){
+	var $div = $('.content article');
+	$div.hide("fast");
+    $(".Ccon").slideToggle();
+	if ($(".Ccon").css("display")==="block"){
+		$('#C').css("display","inline-block");
+	};
+  });
+
+$("#Why").click(function(){
+	var $div = $('.content article');
+	$div.hide("fast");
+    $(".Wcon").slideToggle();
+	if ($(".Wcon").css("display")==="block"){
+		$('#W').css("display","inline-block");
+	};
+  });
+
+
+</script>
+</body>
+
+</html>
