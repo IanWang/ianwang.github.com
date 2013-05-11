@@ -3,16 +3,18 @@
 <title>Hi, I'm Ian</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css">
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
 <style>
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif);
-#wrapper {width: 700px; margin: 0 auto;}
+html {overflow: auto;}
+#wrapper {width: 700px; margin: 0 auto;overflow:hidden;}
 ul, li {list-style: none; display: inline;}
 h1 {text-align: center; font-size:5em; margin-bottom:10px;}
 h2 {font-family: 'Noto Serif', serif; margin:30px 0px 20px 30px;color:#454545;}
-h3 {margin:30px 0px 10px 30px;color:#454545;}
-p {font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", AppleGothic, Dotum, Lucida Grande, Verdana Sans-serif; }
-li:hover, li:active{
+h3,h4 {margin:30px 0px 10px 30px;color:#454545;}
+p {font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", AppleGothic, Dotum, Lucida Grande, Verdana Sans-serif; color:#737373;}
+.mail {margin:0px 5px 10px 30px;}
+li:hover, li.active{
 	color:#cecece;
 	cursor:pointer;
     border-bottom: 1px solid #c9c9c9;
@@ -41,38 +43,38 @@ li {margin-right:33px;}
 		margin-bottom:20px}
 	.container div:hover{border: 2px solid #cecece;}
 
-	.Scon #S p {margin:5px 0px 20px 30px}
+	#P p, #S p, #W p {margin:5px 30px 20px 30px; line-height:24px;}
 
 .Pcon, .Econ, .Scon, .Ccon, .Wcon{
 	display:none;
 	background-color:#f6f6f6;
-	-webkit-box-shadow: 1px 1px 3px rgba(50, 50, 50, 0.3);
-	-moz-box-shadow:    1px 1px 3px rgba(50, 50, 50, 0.3);
-	box-shadow:         1px 1px 3px rgba(50, 50, 50, 0.3);	
+	-webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:    0px 2px 4px rgba(0, 0, 0, 0.3);
+	box-shadow:         0px 2px 4px rgba(0, 0, 0, 0.3);	
 }
 </style>
 <head>
 <body>
 <div id="wrapper">
-<h1>HERE IS</h1>
+<h1>Here is H1</h1>
 <div class="nav">
     <ul>
-    <li id="Profile">Profile</li>
+    <li id="Profile" active>Profile</li>
     <li id="Exp">Experience</li>
     <li id="Skill">Skill</li>
+	<li id="Why">Why?</li>
     <li id="Contact">Contact</li>
-    <li id="Why">Why?</li>
     </ul>
 </div>
+
 <div class="content">
     <article class="Pcon">
-		<div id="p">
+		<div id="P">
 		<h2>Personal Summary</h2>
 		<div>
 		<p>
-		<img src="./pic/hi.png" style="opacity:0.95">
-		A competent and committed Web Design and Development graduate looking for a rewarding career in the Information Technology sector. Highly focused with a comprehensive knowledge of designing and developing the layout, visual appearance and usability of a website. Possessing a proven track record of successfully completing projects from the concept through to design, testing and handover.		
-		</p>
+		<img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-prn1/408095_346152182074490_1478981402_n.jpg" style="opacity:0.92">
+		I'm a junior student at National Chen Cheng University, major in Business Administration, learning HTML, CSS, Javascrip since Jan this year.looking for career in the Web Development sector. Highly focused with a comprehensive knowledge of designing and developing the layout, visual appearance and usability of a website.</p>
 		</div>
 	</article>
 
@@ -82,23 +84,24 @@ li {margin-right:33px;}
 			<div class="container">
 				<div>
 					<img src="http://news.eztable.com/wp-content/uploads/sites/2/2011/02/EZTABLE-FB-logo.gif">
-					<p>describe here for more infomation you can <a href="http://www.youtube.com/user/EZTABLEtw/videos?view=0&flow=grid"  target="_blank">check out here</a></p>
+					<p>In Nov. 2012, I got an internship at EZTABLE Inc. My project was to create the brand commercial film, and then put it on the internet, hold an event in social media to spread it. Eventually it came out 5 short films, and got tens of thousands times of exposure in social media. <br /><a href="http://www.youtube.com/user/EZTABLEtw/videos?view=0&flow=grid"  target="_blank">Here is my project</a></p>
 				</div>
 				<div>
-					<img src="./pic/boss.jpg">
-					<p>	A competent and committed Web Design and Development graduate looking for a rewarding career in the Information Technology sector. Highly focused with</p>
+					<img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash4/295451_10200420123732742_563814418_n.jpg">
+					<p>I'm the top organizer of the 21st NCCU BOSS(Business Operation Stimulation System) camp.The five-day camp was hold in 2013 winter vacation, gathering 50 undergraduate students in Taiwan who interested in business operation to take course and compete with each other with a virtual company. </p>
 				</div>
 				<div>
-					<img src="./pic/bacamp.jpg">
-					<p>	A competent and committed Web Design and Development graduate looking for a rewarding career in the Information Technology sector. Highly focused with</p>
+					<img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-snc7/599871_495625437119487_1183093442_n.jpg">
+					<p>As one of an activity group leaders of the 3rd NCCU Business Administration Camp, my duty is to ensure(assist) 14 sophomore members have finish their own activity project in a good quality, then control the procedure during the event.</p>
 				</div>
 				<div>
-					<img src="./pic/ATCC.jpg">
-					<p>	A competent and committed Web Design and Development graduate looking for a rewarding career in the Information Technology sector. Highly focused with</p>
+					<img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-frc1/p206x206/430714_2973175173745_251882849_n.jpg">
+					<p><b>ATCC全國商業競賽(101/2~101/4)</b> <br />
+					這是一個全國商業行銷專案的比賽，參與者為全國大專院校以上的學生。主題是幫統一超商企業做一套結合社群與CSR的行銷計畫。雖然我們的團隊在全國75強止步，但透過和全國高手過招，聽聞不同的觀點，看前輩更深厚、全面的企劃能力，讓自己的學習動機更強，獲益良多。</p>
 				</div>
 				<div>
 					<iframe width="332" height="187" src="http://www.youtube.com/embed/WA6qG_2AzN4" frameborder="0" allowfullscreen></iframe>
-					<p>	A competent and committed Web Design and Development graduate looking for a rewarding career in the Information Technology sector. Highly focused with</p>
+					<p>One of my film project, with a NTU partner, we spend two weeks to finish this project. Though we didn't win the competition at the end, my ability of making film grow dramatically. More importantly is that I learn how to collabrate with partner more efficiently.	</p>
 				</div>				
 			</div>
 		</div>
@@ -107,80 +110,63 @@ li {margin-right:33px;}
     <article class="Scon">
 		<div id="S">
 			<h2>Key Skill</h2>
-				<h3><i>Front-End Programer</i></h3>
-				<p>hi</p>
+				<h3><i>Web Programming</i></h3>
+				<p>This website is almost what I've got. Not a fency one. <br />
+				I spent almost 15 hours to build this website, including gatherdc the CV info and translated it haha...</p>
 				<h3><i>Quick Learner</i></h3>
-				<p></p>
+				<p>I start to learn HTML, CSS, and JQuery in Jan. 2013 through the Internet, when I'm not quite sure what to do in the future. And now I absolutely understand what I want to do in near future. In such a determined mind, I believe I can do far better than this. 
+				</p>
 
 				<h3><i>Film Producer</i></h3>
-
+				<p>
+				Photograph is one of my hobby, and somehow I'm good at making short film, including filming and making effects. This different wat of viewing beauty, I believe can be a power of designing web.</p>
 				<h3><i>Teamworker & Leader</i></h3>
+				<p>
+				As a Business Administration student, the core ability is to communication and challenge with your partner in a rational way. Beside I have either hold and involved in group activities many times, I believe that teamwork won't be a problem for me. </p>
+		</div>
+	</article>
+	
+	<article class="Wcon"> 
+		<div id="W">
+			<h2>Why Programming?</h2>
+			<h4>"Why are you here?" you may wonder</h4>
+			<p>
+			A BA student has merely no develop experience, just know a little bit of related basic knowledge like a new born baby, what's the reason that you choose to learn programming, but not develop your other specialty? <br /> <br />
+			Well, I come from a private low-grade senior high in Taoyuan, now study at one of the best college of commerce, National Chen Cheng University. That's because I believed at that time, entering a fine college like NCCU will bring my life a positive dramatic change. Work hard with belief makes progress.<br />
+			I choose to be a programmer is because I believe in Internet industry, I believe this will be huge, and can make something different.				
+			</p>
 		</div>
 	</article>
 
     <article class="Ccon">
 		<div id="C">
-			
+			<h2>Contact Me</h2>
+			<div class="mail">
+				<a href="mailto:gogoenwon@gmail.com">gogoenwon@gmail.com</a>
+				<p>Looking forward to having a coffee with you. </p>
+			<div>
 		</div>
 	</article>
 
-    <article class="Wcon">W</article> 
-</div>
+    </div>
 </div>
 <script>
-/*$('li').each(function(){
-	$(this).click(function(){
-	var $div = $('.content div');
-	$div.hide("fast");
-    $(this).slideToggle();
-  });
-}) */
 
-$("#Profile").click(function(){
-	var $div = $('.content article');
-	$div.hide("fast");
-    $(".Pcon").slideToggle();
-	if ($(".Pcon").css("display")==="block"){
-		$('#p').css("display","inline-block");
+$('li').click(function(){
+	$('li').removeClass("active");
+	$(this).addClass("active");
+
+	var num = $('li').index(this),
+		con = [$('.Pcon'), $('.Econ'), $('.Scon'), $('.Wcon'), $('.Ccon')],
+		slide = [$('#P'), $('#E'), $('#S'), $('#W'), $('#C')],
+		div = $('.content article');
+
+	div.hide('fast');
+	con[num].slideToggle();
+	if (con[num].css("display")==="block"){
+		slide[num].css("display","inline-block");
 	};
-  });
-
-$("#Exp").click(function(){
-	var $div = $('.content article');
-	$div.hide("fast");
-    $(".Econ").slideToggle();
-	if ($(".Econ").css("display")==="block"){
-		$('#E').css("display","inline-block");
-	};
-  });
-
-$("#Skill").click(function(){
-	var $div = $('.content article');
-	$div.hide("fast");
-    $(".Scon").slideToggle();
-	if ($(".Scon").css("display")==="block"){
-		$('#S').css("display","inline-block");
-	};
-  });
-
-$("#Contact").click(function(){
-	var $div = $('.content article');
-	$div.hide("fast");
-    $(".Ccon").slideToggle();
-	if ($(".Ccon").css("display")==="block"){
-		$('#C').css("display","inline-block");
-	};
-  });
-
-$("#Why").click(function(){
-	var $div = $('.content article');
-	$div.hide("fast");
-    $(".Wcon").slideToggle();
-	if ($(".Wcon").css("display")==="block"){
-		$('#W').css("display","inline-block");
-	};
-  });
-
+});
 
 </script>
 </body>
