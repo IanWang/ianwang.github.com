@@ -1,7 +1,5 @@
 = The Adventures of Sherlock Holmes
 
-:hp-alt-title: From Wikipedia, the free encyclopedia
-
 :published_at: 2015-04-02
 :hp-tags: HubPress, Blog, Open Source
 
