@@ -4,6 +4,7 @@
     <div class="header-background">
     <section class="blog-content">
         <a id="site-url" class="blog-title" href="{{@blog.url}}">{{@blog.title}}</a>
+        <a class="blog-title" href="http://ianwang.co/about" style="margin-left: 2em;">About</a>
         <span class="blog-description">{{@blog.description}}</span>
         {{> links}}
     </section>
@@ -23,7 +24,7 @@
 
         {{#if @blog.disqus}}
     
-        <section class="post-comments">
+        <section class="post-comments" style="margin-top: 2em;">
           <div id="disqus_thread"></div>
           <script type="text/javascript">
           var disqus_shortname = '{{@blog.disqus}}'; // required: replace example with your forum shortname
