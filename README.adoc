@@ -1,3 +1,6 @@
 = ianwang.cc 
+
 A static blog built on http://hubpress.io[HubPress]
 
+
+__work in process__
