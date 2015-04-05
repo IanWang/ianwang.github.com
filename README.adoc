@@ -1,4 +1,4 @@
-= ianwang.cc 
+= ianwang.co 
 
 A static blog built on http://hubpress.io[HubPress]
 
