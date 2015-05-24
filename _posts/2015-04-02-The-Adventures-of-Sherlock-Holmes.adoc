@@ -1,9 +1,0 @@
-= The Adventures of Sherlock Holmes
-
-:published_at: 2015-04-02
-:hp-tags: HubPress, Blog, Open Source
-
-
-image::https://upload.wikimedia.org/wikipedia/commons/b/b9/Adventures_of_sherlock_holmes.jpg[sherlock]
-
-The Adventures of Sherlock Holmes is a collection of twelve stories written by Arthur Conan Doyle, featuring his famous detective, and illustrated by Sidney Paget.

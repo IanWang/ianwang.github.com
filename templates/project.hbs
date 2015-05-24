@@ -1,0 +1,29 @@
+<div class='project_slides'>
+  
+{{#each project}}
+  <div class='row project'>
+    <div class='five columns info'>
+      <h4>{{title}}</h4>
+      <p>{{desc}}</p>
+
+      <div class='links'>
+        {{#if link}}
+          <a href={{link}} target='_blank'><i class=" icon-external-link-sign"></i>  Website</a>
+        {{/if}} 
+        {{#if repo}}
+          <a href={{repo}} target='_blank'><i class="icon-github"></i>  Github</a>
+        {{/if}}
+      </div>
+    </div>
+
+    <div class='seven columns screenshot'>
+      {{#if img}}
+        <img class='b-lazy' src='./img/ajax.gif' alt={{title}} data-src={{img}}>
+      {{^}}
+        <p>no img</p>
+      {{/if}}
+    </div>
+  </div>
+{{~/each}}
+
+</div>

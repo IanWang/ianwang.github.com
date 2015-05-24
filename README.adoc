@@ -1,6 +1,0 @@
-= ianwang.co 
-
-A static blog built on http://hubpress.io[HubPress]
-
-
-__work in process__

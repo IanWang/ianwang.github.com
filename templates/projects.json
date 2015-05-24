@@ -1,0 +1,47 @@
+{
+  "project": [
+    {
+      "title": "meepShop",
+      "desc": "This website makeover project was my very first task when I entered meepShop Inc. as a frontend developer, it's also responsive and platform friendly.",
+      "link": "http://www.meepshop.com",
+      "repo": "",
+      "img": "./img/p_ms.png"
+    },
+    {
+      "title": "meepShop Blog",
+      "desc": "Built the static version with Grunt using template Jade, the admin platform was established with Nodejs",
+      "repo": "",
+      "link": "",
+      "img": "./img/p_msb.png"
+    },
+    {
+      "title": "HanGee webstite",
+      "desc": "Using advanced responsive CSS framework Foundation",
+      "link": "http://hangee.github.io/Portal/index.html",
+      "repo": "https://github.com/HanGee/Portal",
+      "img": "./img/p_hangee.png"
+    },
+    {
+      "title": "RSS Planet",
+      "desc": "Constructed with Nodejs",
+      "link": "",
+      "repo": "https://github.com/IanWang/node-rss-planet",
+      "img": "./img/p_planet.png"
+    },
+    {
+      "title": "tresor",
+      "desc": "This is a second-hand trading platform, it begins with a simple idea that students who want to sell their stuff like textbook, clothing, or even staple, to other students, need a place to post this information and can immediately connect with the buyer. Using Python as a APIs layer, Nodejs to serve the site and routing",
+      "link": "",
+      "repo": "https://github.com/IanWang/tresor-Node/tree/master",
+      "img": "./img/p_tresor.png"
+    },
+    {
+      "title": "Simple Weather",  
+      "desc": "This was initially a mockup to HTML training, and then enabled functionality through Angular.js. Just reconstructed with React.js recently...",
+      "link": "http://ianwang.co/SimpleWeather/index.html",
+      "repo": "https://github.com/IanWang/SimpleWeather/tree/ng",
+      "img": "./img/p_sw.png"
+    }
+  ]
+}
+
