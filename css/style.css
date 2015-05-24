@@ -48,7 +48,7 @@ header, footer, section {
 
 
 .divider {
-  background: url('../img/divider.png') center no-repeat;
+  background: url('../dist/img/divider.png') center no-repeat;
   padding: 1px;
 }
 
