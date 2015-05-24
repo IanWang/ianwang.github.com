@@ -128,9 +128,9 @@ header, footer, section {
   margin: 0 0.5em;
   border: 1px solid #d6d6d6;
   color: #aaaaaa;
-  height: 5em;
-  width: 5em;
-  line-height: 6em;
+  height: 4em;
+  width: 4em;
+  line-height: 4.5em;
   border-radius: 100%;
 }
 
