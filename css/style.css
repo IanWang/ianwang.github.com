@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #858585;
   text-decoration: none;
   display: inline-block;
   border-bottom: 1px solid #666666;
@@ -17,17 +17,9 @@ a {
   transition: all ease-in-out 0.2s;
 }
 
-a:hover, a:active {
-  outline: 0;
-}
 a:hover {
-  color: #dd1d35;
-  border-bottom: 1px solid white;
-}
-header a:hover {
-  border-bottom: 3px solid #86AFD7;
-  border-top: 1px solid #86AFD7;
-  color: #86AFD7;
+  color: #5a5a5a;
+  outline: 0;
 }
 
 header, footer, section {
@@ -127,7 +119,6 @@ header, footer, section {
   outline: none;
   margin: 0 0.5em;
   border: 1px solid #d6d6d6;
-  color: #aaaaaa;
   height: 4em;
   width: 4em;
   line-height: 4.5em;
