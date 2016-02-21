@@ -99,7 +99,7 @@ header, footer, section {
   cursor: pointer;
   border-radius: 5px;
   margin: 0.7em;
-  width: 55px;
+  text-transform: uppercase;
 }
 ._nav ._prev {
   margin-right: 1em;
